@@ -1,7 +1,9 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import WelcomePage from './WelcomePage';
-import EncryptionPage from './EncryptionPage';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
+import WelcomePage from './components/WelcomePage';
+import './App.css';
+import { Switch } from 'react-router-dom';
+import EncryptionPage from './components/EncryptionPage';
 
 function App() {
   return (
